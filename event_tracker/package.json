@@ -1,0 +1,20 @@
+{
+  "name": "event_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"http-server",
+    "build": "rm -rf static/track* && esbuild --bundle --minify --global-name=_gotracker --format=iife --outfile=static/track.js ./src/track.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.21.4",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
