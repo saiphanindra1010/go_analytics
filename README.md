@@ -1,1 +1,2 @@
 # go_analytics
+This is a monorepo for a CLI analytics tool built in Go, along with a JavaScript file designed to be embedded in websites for tracking purposes. It includes a Go server and utilizes a PostgreSQL database for data storage and management.
